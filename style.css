@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(104, 104, 145);
+}
+.form {
+    display: grid;
+    width: 30rem;
+
+  
+}
+input {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+button {
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+.table {
+    margin-top: 5rem;
+    width: 30rem;
+   border: 1px solid black;
+   text-align: center;
+   background-color: rgb(69, 69, 120);
+}
+th {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th, .save, i, .update {
+    cursor: pointer;
+}
+
+.update {
+    display: none;
+}
